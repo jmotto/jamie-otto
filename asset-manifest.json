@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/jmotto/jamie-otto.git/static/css/main.073c9b0a.css",
+    "main.js": "/jmotto/jamie-otto.git/static/js/main.2d251fe7.js",
+    "static/js/787.8acf465f.chunk.js": "/jmotto/jamie-otto.git/static/js/787.8acf465f.chunk.js",
+    "static/media/logo.svg": "/jmotto/jamie-otto.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/jmotto/jamie-otto.git/index.html",
+    "main.073c9b0a.css.map": "/jmotto/jamie-otto.git/static/css/main.073c9b0a.css.map",
+    "main.2d251fe7.js.map": "/jmotto/jamie-otto.git/static/js/main.2d251fe7.js.map",
+    "787.8acf465f.chunk.js.map": "/jmotto/jamie-otto.git/static/js/787.8acf465f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.2d251fe7.js"
+  ]
+}
