@@ -1,7 +1,10 @@
 import './App.css';
 import { About } from './components/About';
+import { Contact } from './components/Contact';
 import { Navbar } from './components/Navbar';
 import { Portfolio } from './components/Portfolio';
+import { Footer } from './components/Footer';
+
 
 function App() {
   return (
@@ -17,7 +20,17 @@ function App() {
         </p>
        
       </header>
+      <div>
       <Portfolio />
+      </div>
+      <div>
+      Contact
+      <Contact />
+      </div>
+      <footer>
+      <Footer />
+      </footer>
+      
     </div>
   );
 }

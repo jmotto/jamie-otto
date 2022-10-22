@@ -2,9 +2,14 @@ import * as React from 'react';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
+import Grid from '@mui/material/Grid';
+
 
 export const Portfolio = () => {
   return (
+    <Grid container > 
+      
+    
     <ImageList sx={{ width: 500, height: 500 }}>
       {itemData.map((item) => (
         <ImageListItem key={item.img}>
@@ -21,14 +26,15 @@ export const Portfolio = () => {
         </ImageListItem>
       ))}
     </ImageList>
+    </Grid>
   );
 }
 
 
 const itemData = [
   {
-    img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
-    title: 'Breakfast',
+    img: 'https://github.com/jmotto/jamie-otto/blob/main/src/images/got-milk-image.jpg',
+    title: 'Got Milk Grocery',
   },
   {
     img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
