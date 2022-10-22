@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/jamie-otto/static/css/main.1506188f.css",
-    "main.js": "/jamie-otto/static/js/main.e188e0aa.js",
+    "main.css": "/jamie-otto/static/css/main.c0609e1d.css",
+    "main.js": "/jamie-otto/static/js/main.0420d4eb.js",
     "static/js/787.8acf465f.chunk.js": "/jamie-otto/static/js/787.8acf465f.chunk.js",
     "index.html": "/jamie-otto/index.html",
-    "main.1506188f.css.map": "/jamie-otto/static/css/main.1506188f.css.map",
-    "main.e188e0aa.js.map": "/jamie-otto/static/js/main.e188e0aa.js.map",
+    "main.c0609e1d.css.map": "/jamie-otto/static/css/main.c0609e1d.css.map",
+    "main.0420d4eb.js.map": "/jamie-otto/static/js/main.0420d4eb.js.map",
     "787.8acf465f.chunk.js.map": "/jamie-otto/static/js/787.8acf465f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1506188f.css",
-    "static/js/main.e188e0aa.js"
+    "static/css/main.c0609e1d.css",
+    "static/js/main.0420d4eb.js"
   ]
 }
