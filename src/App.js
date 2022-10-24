@@ -4,34 +4,40 @@ import { Contact } from './components/Contact';
 import { Navbar } from './components/Navbar';
 import { Portfolio } from './components/Portfolio';
 import { Footer } from './components/Footer';
+import Grid from '@mui/material/Grid';
+import Box from '@mui/material/Box';
 
 
 function App() {
   return (
-    <div className="App">
-      <nav className="App-name">
+    <Box>
+    <Grid className="App">
+      <Grid className="App-name">
       Jamie Otto 
-      </nav>
+      </Grid>
       <Navbar />
      
-      <header className="App-header">
+      <Grid className="App-header">
         <p>
          <About />
         </p>
        
-      </header>
-      <div>
+      </Grid>
+      <Grid>
       <Portfolio />
-      </div>
-      <div>
+      </Grid>
+
+      <Grid>
       Contact
       <Contact />
-      </div>
+      
+      </Grid>
       <footer>
       <Footer />
       </footer>
       
-    </div>
+    </Grid>
+    </Box>
   );
 }
 

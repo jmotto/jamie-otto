@@ -13,9 +13,9 @@ export const Navbar = () => {
     return (
       <Box sx={{ width: '100%', bgcolor:'background.paper' }}>
         <Tabs value={value} onChange={handleChange} centered>
-          <Tab label="About" />
-          <Tab label="Portfolio" />
-          <Tab label="Resume" />
+          <Tab label="About" href="#about" />
+          <Tab label="Portfolio" href="#portfolio"/>
+          <Tab label="Resume"href="#resume"/>
           <Tab label="Contact" />
         </Tabs>
       </Box>
