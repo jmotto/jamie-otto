@@ -4,8 +4,8 @@ import { Resume } from './pages/Resume';
 import { Portfolio } from './pages/Portfolio';
 import  NavTabs  from './NavTabs';
 import { Home } from './pages/Home';
-import { Box, Container } from '@mui/material';
-// import {Footer} from './Footer'
+import { Box, Card, Container } from '@mui/material';
+
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -25,10 +25,6 @@ export default function PortfolioContainer() {
 
   const handlePageChange = (page) => setCurrentPage(page);
 
-  const style = {
-    
-  }
-
   return (
     <Container  >
         <Box 
@@ -39,9 +35,9 @@ export default function PortfolioContainer() {
             
             }}>
             <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-
+            <Card>
             {renderPage()}
-
+            </Card>
         </Box>
   
     </Container>

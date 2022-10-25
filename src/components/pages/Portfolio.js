@@ -1,9 +1,7 @@
 import * as React from 'react';
 import Grid from '@mui/material/Grid';
-import { Typography, Stack, Button, CardHeader, makeStyles } from '@mui/material';
-import { styled } from '@mui/material/styles';
-// import Box from '@mui/material/Box';
-import data from "../Portfolio.data"; 
+import { Stack, Button, CardHeader } from '@mui/material';
+// import data from "../Portfolio.data"; 
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -17,14 +15,12 @@ import { Container } from '@mui/system';
 
 
 
-
-
 export const Portfolio = () => {
   return (
 
  <Container>
-  <Grid container>
-    <Grid item variant="outlined">
+  <Grid container columns={{ xs: 4, sm: 8, md: 12, lg: 12}} >
+  
       <Card elevation={3}>
     
         <CardHeader
@@ -44,8 +40,8 @@ export const Portfolio = () => {
           </Stack>
         </CardContent>
       </Card>
-    </Grid>
-    <Grid item >
+    
+
       <Card elevation={3}>
         <CardHeader
         title="Got Milk? Grocery"
@@ -64,8 +60,8 @@ export const Portfolio = () => {
           </Stack>
         </CardContent>
       </Card>
-    </Grid>
-    <Grid item >
+   
+
       <Card elevation={3}>
         <CardHeader
         title="Tech Blog Spot"
@@ -84,8 +80,8 @@ export const Portfolio = () => {
           </Stack>
         </CardContent>
       </Card>
-    </Grid>
-    <Grid item >
+
+
       <Card elevation={3}>
         <CardHeader
         title="Note Pad"
@@ -104,8 +100,8 @@ export const Portfolio = () => {
           </Stack>
         </CardContent>
       </Card>
-    </Grid>
-    <Grid item >
+
+    
       <Card elevation={3}>
         <CardHeader
         title="Text Editor"
@@ -124,8 +120,8 @@ export const Portfolio = () => {
           </Stack>
         </CardContent>
       </Card>
-    </Grid>
-    <Grid >
+
+
       <Card elevation={3}>
         <CardHeader
         title="Daily Planner"
@@ -145,7 +141,7 @@ export const Portfolio = () => {
         </CardContent>
     
       </Card>
-    </Grid>
+
   </Grid>
   </Container> 
 
