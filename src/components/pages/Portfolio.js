@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Grid from '@mui/material/Grid';
-import { Typography, Stack, Button, CardHeader } from '@mui/material';
+import { Typography, Stack, Button, CardHeader, makeStyles } from '@mui/material';
 import { styled } from '@mui/material/styles';
 // import Box from '@mui/material/Box';
 import data from "../Portfolio.data"; 
@@ -13,15 +13,20 @@ import Blog from "../../images/blog-homepage-img.png";
 import Planner from "../../images/workdaySchedule.png";
 import NotePad from "../../images/Note-Pad homepage.png";
 import Editor from "../../images/19-Jate.png";
+import { Container } from '@mui/system';
+
+
 
 
 
 export const Portfolio = () => {
   return (
 
+ <Container>
   <Grid container>
     <Grid item variant="outlined">
       <Card elevation={3}>
+    
         <CardHeader
         title="Cards for Jokes"
         />
@@ -138,11 +143,11 @@ export const Portfolio = () => {
             <Button href='' color="inherit">Github</Button>
           </Stack>
         </CardContent>
+    
       </Card>
     </Grid>
   </Grid>
-
-
+  </Container> 
 
 
    
@@ -157,23 +162,26 @@ export const Portfolio = () => {
 
 
 
-{/* <Grid container>
-<Grid item>
-  <Card elevation={3} >
-  {data.map(({id, title, image, repoUrl, deployUrl}) => (
-    
-  <CardContent key={id} >
-    {image ? <img src={image} alt={image.title}/> : null }
-    <Typography fontFamily="Arial" variant="h6">
-    {title}
-    </Typography>
-    <Stack direction="row" justifyContent="center" >
-    <Button href={deployUrl} color="inherit">Live
-    </Button>
-    <Button href={repoUrl} color="inherit">Github</Button>
-    </Stack>
-  </CardContent>
-  ))}
-  </Card> 
-</Grid>
-</Grid> */}
+
+
+
+// <Container display="flex"> 
+//   <Grid container>
+//     <Card elevation={3} >
+//     {data.map(({id, title, image, repoUrl, deployUrl}) => (
+      
+//     <CardContent key={id} >
+//       {image ? <img src={image} alt={image.title}/> : null }
+//       <Typography fontFamily="Arial" variant="h6">
+//       {title}
+//       </Typography>
+//       <Stack direction="row" justifyContent="center" >
+//       <Button href={deployUrl} color="inherit">Live
+//       </Button>
+//       <Button href={repoUrl} color="inherit">Github</Button>
+//       </Stack>
+//     </CardContent>
+//     ))}
+//     </Card> 
+//   </Grid>
+// </Container>

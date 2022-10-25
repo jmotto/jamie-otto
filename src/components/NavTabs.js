@@ -9,63 +9,46 @@ function NavTabs({ currentPage, handlePageChange }) {
     const handleChange = (event, newValue) => {
       setValue(newValue);
     };
-    
+
   return (
-    <Tabs value={value} onChange={handleChange} centered textColor="secondary"
+    <Tabs value={value} onChange={handleChange} centered textColor='secondary'
     indicatorColor="secondary">
 
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
-        <a
+        <Tab
+        value='home'
+        label='Home'
           href="#home"
           onClick={() => handlePageChange('Home')}
 
           className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-        >
-          Home
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#about"
-          onClick={() => handlePageChange('About')}
+        />
 
-          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-        >
-          About
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
+        <Tab
+             value='portfolio'
+             label='Portfolio'
           href="#portfolio"
           onClick={() => handlePageChange('Portfolio')}
 
           className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
-        >
-          Portfolio
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
+        />
+    
+        <Tab
+         value='contact'
+         label='Contact'
           href="#contact"
 
           onClick={() => handlePageChange('Contact')}
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-        >
-          Contact
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
+        />
+        <Tab
+         value='resume'
+         label='Resume'
           href="#resume"
 
           onClick={() => handlePageChange('Resume')}
           className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
-        >
-            Resume
-        </a>
-      </li>
-    </ul>
+        />
+     
 
     </Tabs>
   );
