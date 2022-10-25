@@ -1,44 +1,50 @@
-import './App.css';
-import { About } from './components/About';
-import { Contact } from './components/Contact';
-import { Navbar } from './components/Navbar';
-import { Portfolio } from './components/Portfolio';
-import { Footer } from './components/Footer';
-import Grid from '@mui/material/Grid';
-import Box from '@mui/material/Box';
+import React from "react";
+import PortfolioContainer from "./components/PortfolioContainer";
 
-
-function App() {
-  return (
-    <Box>
-    <Grid className="App">
-      <Grid className="App-name">
-      Jamie Otto 
-      </Grid>
-      <Navbar />
-     
-      <Grid className="App-header">
-        <p>
-         <About />
-        </p>
-       
-      </Grid>
-      <Grid>
-      <Portfolio />
-      </Grid>
-
-      <Grid>
-      Contact
-      <Contact />
-      
-      </Grid>
-      <footer>
-      <Footer />
-      </footer>
-      
-    </Grid>
-    </Box>
-  );
-}
+const App = () => <PortfolioContainer />;
 
 export default App;
+
+// import './App.css';
+// import { About } from './components/About';
+// import { Contact } from './components/Contact';
+// import { Navbar } from './components/Navbar';
+// import { Portfolio } from './components/Portfolio';
+// import { Footer } from './components/Footer';
+// // import Grid from '@mui/material/Grid';
+// import Box from '@mui/material/Box';
+// import { Typography } from '@mui/material';
+
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <Typography className="App-name" variant="h2">
+//       Jamie Otto 
+//       </Typography>
+//       <Navbar />
+     
+//       <div className="App-header">
+//         <p>
+//          <About />
+//         </p>
+       
+//       </div>
+  
+//       <Portfolio />
+
+
+   
+//       <Contact />
+
+
+//       <footer>
+//       <Footer />
+//       </footer>
+      
+//     </div>
+
+//   );
+// }
+
+// export default App;

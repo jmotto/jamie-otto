@@ -3,6 +3,8 @@ import CardsJokes from "../images/cardsforjokes-mainpage.png";
 import Blog from "../images/blog-homepage-img.png";
 import Planner from "../images/workdaySchedule.png";
 import NotePad from "../images/Note-Pad homepage.png";
+import Editor from "../images/19-Jate.png";
+
 
 const data = [
       {
@@ -40,8 +42,15 @@ const data = [
         repoUrl: 'https://github.com/jmotto/Note-Pad.git',
         deployUrl: 'https://ch11-notepad-app.herokuapp.com/',
       },
+      {
+        id: 6,
+        image: Editor,
+        title: 'Text Editor',
+        repoUrl: 'https://github.com/jmotto/editor-of-the-text.git',
+        deployUrl: 'https://editor-of-the-text.herokuapp.com/',
+      },
      
-      
+    
     ];
     
     export default data;
