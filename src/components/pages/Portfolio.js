@@ -94,9 +94,9 @@ export const Portfolio = () => {
         />
         <CardContent>
           <Stack direction="row" justifyContent="center" >
-            <Button href='' color="inherit">Live
+            <Button href='https://ch11-notepad-app.herokuapp.com/' color="inherit">Live
             </Button>
-            <Button href='' color="inherit">Github</Button>
+            <Button href='https://github.com/jmotto/Note-Pad.git' color="inherit">Github</Button>
           </Stack>
         </CardContent>
       </Card>
@@ -104,7 +104,7 @@ export const Portfolio = () => {
     
       <Card elevation={3}>
         <CardHeader
-        title="Text Editor"
+        title="Editor of the Text"
         />
         <CardMedia
         component="img"
@@ -114,9 +114,9 @@ export const Portfolio = () => {
         />
         <CardContent>
           <Stack direction="row" justifyContent="center" >
-            <Button href='https://ch-14-mvc-blog-spot.herokuapp.com/login' color="inherit">Live
+            <Button href='https://editor-of-the-text.herokuapp.com/' color="inherit">Live
             </Button>
-            <Button href='https://github.com/jmotto/Blog-Spot' color="inherit">Github</Button>
+            <Button href='https://github.com/jmotto/editor-of-the-text.git' color="inherit">Github</Button>
           </Stack>
         </CardContent>
       </Card>
@@ -134,9 +134,9 @@ export const Portfolio = () => {
         />
         <CardContent>
           <Stack direction="row" justifyContent="center" >
-            <Button href='' color="inherit">Live
+            <Button href='https://jmotto.github.io/Daily-Planner/' color="inherit">Live
             </Button>
-            <Button href='' color="inherit">Github</Button>
+            <Button href='https://github.com/jmotto/Daily-Planner.git' color="inherit">Github</Button>
           </Stack>
         </CardContent>
     
