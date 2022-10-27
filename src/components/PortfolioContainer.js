@@ -4,7 +4,7 @@ import { Resume } from './pages/Resume';
 import { Portfolio } from './pages/Portfolio';
 import  NavTabs  from './NavTabs';
 import { Home } from './pages/Home';
-import { Box, Card, Container } from '@mui/material';
+import { Box, Card, Container, Typography } from '@mui/material';
 
 
 export default function PortfolioContainer() {
@@ -34,7 +34,10 @@ export default function PortfolioContainer() {
            
             
             }}>
-            <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+            <NavTabs currentPage={currentPage} handlePageChange={handlePageChange}  />
+            <Typography variant="h2">
+              Jamie Otto
+            </Typography>
             <Card>
             {renderPage()}
             </Card>
