@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jamie-otto/static/css/main.f68f0381.css",
-    "main.js": "/jamie-otto/static/js/main.c9b5e5d2.js",
+    "main.js": "/jamie-otto/static/js/main.fd9988d4.js",
     "static/js/787.8acf465f.chunk.js": "/jamie-otto/static/js/787.8acf465f.chunk.js",
     "static/media/resume.png": "/jamie-otto/static/media/resume.302271fbfd0cd7f904ab.png",
     "static/media/cardsforjokes-mainpage.png": "/jamie-otto/static/media/cardsforjokes-mainpage.1fa6030edf6d08d6b9a0.png",
@@ -13,11 +13,11 @@
     "static/media/Note-Pad homepage.png": "/jamie-otto/static/media/Note-Pad homepage.937a1ef126e67d646a0a.png",
     "index.html": "/jamie-otto/index.html",
     "main.f68f0381.css.map": "/jamie-otto/static/css/main.f68f0381.css.map",
-    "main.c9b5e5d2.js.map": "/jamie-otto/static/js/main.c9b5e5d2.js.map",
+    "main.fd9988d4.js.map": "/jamie-otto/static/js/main.fd9988d4.js.map",
     "787.8acf465f.chunk.js.map": "/jamie-otto/static/js/787.8acf465f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f68f0381.css",
-    "static/js/main.c9b5e5d2.js"
+    "static/js/main.fd9988d4.js"
   ]
 }
