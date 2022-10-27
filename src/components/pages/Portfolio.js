@@ -19,129 +19,131 @@ export const Portfolio = () => {
   return (
 
  <Container>
-  <Grid container >
-      <Card elevation={3}>
+  
+    <Grid container >
+      <Stack direction="row" display='flex' spacing={1}>
+        <Card elevation={3}>
+      
+          <CardHeader
+          title="Cards for Jokes"
+          />
+          <CardMedia
+          component="img"
+          height="200"
+          image={CardsJokes}
+          alt="Cards For Jokes"
+          />
+          <CardContent>
+            <Stack direction="row" justifyContent="center" >
+              <Button href='https://danielstewart914.github.io/cards-for-jokes/' color="inherit">Live
+              </Button>
+              <Button href='https://github.com/danielstewart914/cards-for-jokes.git' color="inherit">Github</Button>
+            </Stack>
+          </CardContent>
+        </Card>
+      
+
+        <Card elevation={3}>
+          <CardHeader
+          title="Got Milk? Grocery"
+          />
+          <CardMedia
+          component="img"
+          height="200"
+          image={GotMilk}
+          alt="Got Milk"
+          />
+          <CardContent>
+            <Stack direction="row" justifyContent="center" >
+              <Button href='https://got-milk-grocery.herokuapp.com/' color="inherit">Live
+              </Button>
+              <Button href='https://github.com/teshome28sara/Got_Milk-.git' color="inherit">Github</Button>
+            </Stack>
+          </CardContent>
+        </Card>
     
-        <CardHeader
-        title="Cards for Jokes"
-        />
-        <CardMedia
-        component="img"
-        height="200"
-        image={CardsJokes}
-        alt="Cards For Jokes"
-        />
-        <CardContent>
-          <Stack direction="row" justifyContent="center" >
-            <Button href='https://danielstewart914.github.io/cards-for-jokes/' color="inherit">Live
-            </Button>
-            <Button href='https://github.com/danielstewart914/cards-for-jokes.git' color="inherit">Github</Button>
-          </Stack>
-        </CardContent>
-      </Card>
-    
 
-      <Card elevation={3}>
-        <CardHeader
-        title="Got Milk? Grocery"
-        />
-        <CardMedia
-        component="img"
-        height="200"
-        image={GotMilk}
-        alt="Got Milk"
-        />
-        <CardContent>
-          <Stack direction="row" justifyContent="center" >
-            <Button href='https://got-milk-grocery.herokuapp.com/' color="inherit">Live
-            </Button>
-            <Button href='https://github.com/teshome28sara/Got_Milk-.git' color="inherit">Github</Button>
-          </Stack>
-        </CardContent>
-      </Card>
-   
-
-      <Card elevation={3}>
-        <CardHeader
-        title="Tech Blog Spot"
-        />
-        <CardMedia
-        component="img"
-        height="200"
-        image={Blog}
-        alt="Blog"
-        />
-        <CardContent>
-          <Stack direction="row" justifyContent="center" >
-            <Button href='https://ch-14-mvc-blog-spot.herokuapp.com/login' color="inherit">Live
-            </Button>
-            <Button href='https://github.com/jmotto/Blog-Spot' color="inherit">Github</Button>
-          </Stack>
-        </CardContent>
-      </Card>
+        <Card elevation={3}>
+          <CardHeader
+          title="Tech Blog Spot"
+          />
+          <CardMedia
+          component="img"
+          height="200"
+          image={Blog}
+          alt="Blog"
+          />
+          <CardContent>
+            <Stack direction="row" justifyContent="center" >
+              <Button href='https://ch-14-mvc-blog-spot.herokuapp.com/login' color="inherit">Live
+              </Button>
+              <Button href='https://github.com/jmotto/Blog-Spot' color="inherit">Github</Button>
+            </Stack>
+          </CardContent>
+        </Card>
 
 
-      <Card elevation={3}>
-        <CardHeader
-        title="Note Pad"
-        />
-        <CardMedia
-        component="img"
-        height="200"
-        image={NotePad}
-        alt="Note Pad"
-        />
-        <CardContent>
-          <Stack direction="row" justifyContent="center" >
-            <Button href='https://ch11-notepad-app.herokuapp.com/' color="inherit">Live
-            </Button>
-            <Button href='https://github.com/jmotto/Note-Pad.git' color="inherit">Github</Button>
-          </Stack>
-        </CardContent>
-      </Card>
+        <Card elevation={3}>
+          <CardHeader
+          title="Note Pad"
+          />
+          <CardMedia
+          component="img"
+          height="200"
+          image={NotePad}
+          alt="Note Pad"
+          />
+          <CardContent>
+            <Stack direction="row" justifyContent="center" >
+              <Button href='https://ch11-notepad-app.herokuapp.com/' color="inherit">Live
+              </Button>
+              <Button href='https://github.com/jmotto/Note-Pad.git' color="inherit">Github</Button>
+            </Stack>
+          </CardContent>
+        </Card>
 
-    
-      <Card elevation={3}>
-        <CardHeader
-        title="Editor of the Text"
-        />
-        <CardMedia
-        component="img"
-        height="200"
-        image={Editor}
-        alt="Editor"
-        />
-        <CardContent>
-          <Stack direction="row" justifyContent="center" >
-            <Button href='https://editor-of-the-text.herokuapp.com/' color="inherit">Live
-            </Button>
-            <Button href='https://github.com/jmotto/editor-of-the-text.git' color="inherit">Github</Button>
-          </Stack>
-        </CardContent>
-      </Card>
+      
+        <Card elevation={3}>
+          <CardHeader
+          title="Editor of the Text"
+          />
+          <CardMedia
+          component="img"
+          height="200"
+          image={Editor}
+          alt="Editor"
+          />
+          <CardContent>
+            <Stack direction="row" justifyContent="center" >
+              <Button href='https://editor-of-the-text.herokuapp.com/' color="inherit">Live
+              </Button>
+              <Button href='https://github.com/jmotto/editor-of-the-text.git' color="inherit">Github</Button>
+            </Stack>
+          </CardContent>
+        </Card>
 
 
-      <Card elevation={3}>
-        <CardHeader
-        title="Daily Planner"
-        />
-        <CardMedia
-        component="img"
-        height="200"
-        image={Planner}
-        alt="Planner"
-        />
-        <CardContent>
-          <Stack direction="row" justifyContent="center" >
-            <Button href='https://jmotto.github.io/Daily-Planner/' color="inherit">Live
-            </Button>
-            <Button href='https://github.com/jmotto/Daily-Planner.git' color="inherit">Github</Button>
-          </Stack>
-        </CardContent>
-    
-      </Card>
-
-  </Grid>
+        <Card elevation={3}>
+          <CardHeader
+          title="Daily Planner"
+          />
+          <CardMedia
+          component="img"
+          height="200"
+          image={Planner}
+          alt="Planner"
+          />
+          <CardContent>
+            <Stack direction="row" justifyContent="center" >
+              <Button href='https://jmotto.github.io/Daily-Planner/' color="inherit">Live
+              </Button>
+              <Button href='https://github.com/jmotto/Daily-Planner.git' color="inherit">Github</Button>
+            </Stack>
+          </CardContent>
+      
+        </Card>
+      </Stack>
+    </Grid>
   </Container> 
 
 
