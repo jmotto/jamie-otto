@@ -11,6 +11,7 @@ import Blog from "../../images/blog-homepage-img.png";
 import Planner from "../../images/workdaySchedule.png";
 import NotePad from "../../images/Note-Pad homepage.png";
 import Editor from "../../images/19-Jate.png";
+import ToTask from "../../images/toTask-homepage-screenshot.png";
 import { Container } from '@mui/system';
 
 
@@ -18,10 +19,10 @@ import { Container } from '@mui/system';
 export const Portfolio = () => {
   return (
 
- <Container>
+ <Container xs={10} m={6}>
   
-    <Grid container >
-      <Stack direction="row" display='flex' spacing={1}>
+    <Grid container>
+      <Stack direction="column" display='flex'spacing={2}>
         <Card elevation={3}>
       
           <CardHeader
@@ -138,6 +139,26 @@ export const Portfolio = () => {
               <Button href='https://jmotto.github.io/Daily-Planner/' color="inherit">Live
               </Button>
               <Button href='https://github.com/jmotto/Daily-Planner.git' color="inherit">Github</Button>
+            </Stack>
+          </CardContent>
+      
+        </Card>
+
+        <Card elevation={3}>
+          <CardHeader
+          title="toTask"
+          />
+          <CardMedia
+          component="img"
+          height="200"
+          image={ToTask}
+          alt="Planner"
+          />
+          <CardContent>
+            <Stack direction="row" justifyContent="center" >
+              <Button href='https://to-task-app.herokuapp.com/' color="inherit">Live
+              </Button>
+              <Button href='https://github.com/rbishop85/toTask' color="inherit">Github</Button>
             </Stack>
           </CardContent>
       

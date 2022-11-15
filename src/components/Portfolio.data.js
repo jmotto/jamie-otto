@@ -4,7 +4,7 @@ import Blog from "../images/blog-homepage-img.png";
 import Planner from "../images/workdaySchedule.png";
 import NotePad from "../images/Note-Pad homepage.png";
 import Editor from "../images/19-Jate.png";
-
+import ToTask from "../images/toTask-homepage-screenshot.png";
 
 const data = [
       {
@@ -49,7 +49,13 @@ const data = [
         repoUrl: 'https://github.com/jmotto/editor-of-the-text.git',
         deployUrl: 'https://editor-of-the-text.herokuapp.com/',
       },
-     
+      {
+        id: 7,
+        image: ToTask,
+        title: 'toTask',
+        repoUrl: 'https://github.com/rbishop85/toTask',
+        deployUrl: 'https://to-task-app.herokuapp.com/',
+      },
     
     ];
     
