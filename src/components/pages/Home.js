@@ -21,7 +21,7 @@ export const Home = () => {
                     Hello! 
                     </Typography>
                     <Typography variant="body2" margin="20px" justifyContent="center">
-                    I am a developer learning to code from the UW coding boot camp. When I am not coding, I am spending time with my family and exploring nature.
+                    I am a full stack web developer with experience with web technologies such as HTML, CSS, databases, JavaScript, React, Node, and Express, GitHub. When I am not coding, I am spending time with my family and exploring nature.
                     </Typography>
                     <Stack  direction="row" style={{ justifyContent: "center", display: "flex" }} spacing={1}> 
                     <Avatar 
@@ -31,7 +31,7 @@ export const Home = () => {
         
                     <Typography variant="h6">Technologies I Know</Typography>
                         <div >
-                            <DiJavascript1 />
+                        <DiJavascript1 />
                         <FaReact/>
                         <DiMongodb/>
                         <FaNodeJs/>
