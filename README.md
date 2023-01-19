@@ -1,4 +1,4 @@
-# React Portfolio - Jamie Otto
+# Jamie Otto's Portfolio
 
 [Deployed Portfolio](https://jmotto.github.io/jamie-otto/)
 
