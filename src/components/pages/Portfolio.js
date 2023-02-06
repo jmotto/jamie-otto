@@ -7,7 +7,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import CardsJokes from "../../images/cardsforjokes-mainpage.png";
 import GotMilk from "../../images/Got-milk-homepage.png";
-import Blog from "../../images/blog-homepage-img.png";
+import Blog from "../../images/codeChat.png";
 import Planner from "../../images/workdaySchedule.png";
 import NotePad from "../../images/Note-Pad homepage.png";
 import Editor from "../../images/19-Jate.png";
@@ -27,6 +27,7 @@ export const Portfolio = () => {
       
           <CardHeader
           title="Cards for Jokes"
+         
           />
           <CardMedia
           component="img"
@@ -66,7 +67,7 @@ export const Portfolio = () => {
 
         <Card elevation={3}>
           <CardHeader
-          title="Tech Blog Spot"
+          title="codeChat"
           />
           <CardMedia
           component="img"

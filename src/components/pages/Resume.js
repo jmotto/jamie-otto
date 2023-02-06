@@ -7,7 +7,7 @@ import MyResume from '../../images/resume.png'
 export const Resume = () => {
     return(
         <Container >
-            <Link variant='h3' href="https://docs.google.com/document/d/1a1rSTqm3IAyGMc-mtgR2ukyGWeH7oBUJl-iFJQORjrE/edit?usp=sharing" alt="resume">
+            <Link variant='h3' href="https://drive.google.com/file/d/1h5NegitGL_XVk9dEpVx7xj1UXAhFUU-k/view?usp=sharing" alt="resume">
             <Card>
             <img height="500px" src={MyResume} alt="resume"/>
             </Card>

@@ -1,9 +1,9 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
-import TextField from '@mui/material/TextField';
-import Button from '@mui/material/Button';
-import { Typography, FormControl, Card, CardContent } from '@mui/material';
-
+// import TextField from '@mui/material/TextField';
+// import Button from '@mui/material/Button';
+// import { Typography, FormControl} from '@mui/material';
+import { Card, CardContent } from '@mui/material';
 
 
 export const Contact = () => {
@@ -18,8 +18,8 @@ export const Contact = () => {
     >
       <Card>
         <CardContent>
-      
-                  <FormControl variant="standard">
+                  Contact me at JMOTTO31@GMAIL.COM
+                  {/* <FormControl variant="standard">
                   <div>
                     <Typography variant="h5">
                     Contact
@@ -70,7 +70,7 @@ export const Contact = () => {
                     Submit
                     </Button>
                   </div>
-                  </FormControl>
+                  </FormControl> */}
           </CardContent>
       </Card>
     </Box>

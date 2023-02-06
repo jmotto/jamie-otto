@@ -1,6 +1,6 @@
 import GotMilk from "../images/Got-milk-homepage.png";
 import CardsJokes from "../images/cardsforjokes-mainpage.png";
-import Blog from "../images/blog-homepage-img.png";
+import Blog from "../images/codeChat.png";
 import Planner from "../images/workdaySchedule.png";
 import NotePad from "../images/Note-Pad homepage.png";
 import Editor from "../images/19-Jate.png";
@@ -11,6 +11,7 @@ const data = [
         id: 1,
         image: CardsJokes,
         title: 'Cards for Jokes',
+        description: 'a simple card game to win jokes',
         repoUrl: 'https://github.com/danielstewart914/cards-for-jokes.git',
         deployUrl: 'https://danielstewart914.github.io/cards-for-jokes/',
       },
@@ -24,7 +25,7 @@ const data = [
       {
         id: 3,
         image: Blog,
-        title: 'Tech Blog Spot',
+        title: 'codeChat',
         repoUrl: 'https://github.com/jmotto/Blog-Spot',
         deployUrl: 'https://ch-14-mvc-blog-spot.herokuapp.com/login',
       },
