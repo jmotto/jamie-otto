@@ -22,7 +22,7 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Usage
-To deploy the text editor, follow this [link](https://jmotto.github.io/jamie-otto/). 
+To deploy, follow this [link](https://jmotto.github.io/jamie-otto/). 
 
 Here is a screenshot of the homepage of my portfolio.
 ![Portfolio](./src/images/Portfolio-screenshot.png)
