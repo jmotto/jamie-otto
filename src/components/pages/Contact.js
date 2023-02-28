@@ -18,7 +18,7 @@ export const Contact = () => {
     >
       <Card>
         <CardContent>
-                  Contact me at JMOTTO31@GMAIL.COM
+                  Contact me at JMOTTO.DEV@GMAIL.COM
                   {/* <FormControl variant="standard">
                   <div>
                     <Typography variant="h5">
