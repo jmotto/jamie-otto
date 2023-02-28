@@ -17,6 +17,5 @@ export const Resume = () => {
             
         </Container>
 
-        
     )
 }
