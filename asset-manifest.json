@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/jamie-otto/static/css/main.53b6dd25.css",
-    "main.js": "/jamie-otto/static/js/main.360572a4.js",
+    "main.js": "/jamie-otto/static/js/main.b2a514cc.js",
     "static/js/787.8acf465f.chunk.js": "/jamie-otto/static/js/787.8acf465f.chunk.js",
     "static/media/toTask-homepage-screenshot.png": "/jamie-otto/static/media/toTask-homepage-screenshot.9e3f14215a839f3681b7.png",
-    "static/media/otto-resume.png": "/jamie-otto/static/media/otto-resume.909d37e4fa01e9141a03.png",
+    "static/media/resume_screenshot.png": "/jamie-otto/static/media/resume_screenshot.adc7c99aa73a1fcd5725.png",
     "static/media/codeChat.png": "/jamie-otto/static/media/codeChat.75e418b1cda243625226.png",
     "static/media/cardsforjokes-mainpage.png": "/jamie-otto/static/media/cardsforjokes-mainpage.1fa6030edf6d08d6b9a0.png",
     "static/media/Otto.JPG": "/jamie-otto/static/media/Otto.58857e5356b2355767ce.JPG",
@@ -14,11 +14,11 @@
     "static/media/Note-Pad homepage.png": "/jamie-otto/static/media/Note-Pad homepage.937a1ef126e67d646a0a.png",
     "index.html": "/jamie-otto/index.html",
     "main.53b6dd25.css.map": "/jamie-otto/static/css/main.53b6dd25.css.map",
-    "main.360572a4.js.map": "/jamie-otto/static/js/main.360572a4.js.map",
+    "main.b2a514cc.js.map": "/jamie-otto/static/js/main.b2a514cc.js.map",
     "787.8acf465f.chunk.js.map": "/jamie-otto/static/js/787.8acf465f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.53b6dd25.css",
-    "static/js/main.360572a4.js"
+    "static/js/main.b2a514cc.js"
   ]
 }
