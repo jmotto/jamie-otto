@@ -1,8 +1,9 @@
+import React from "react";
 import { Box, Link, Typography, Container} from "@mui/material"
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
-export const Footer = () => {
+export default function Footer() {
     return(
     <Container >
         <Box  sx={{

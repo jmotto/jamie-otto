@@ -5,18 +5,18 @@ import { Stack, Button, CardHeader } from '@mui/material';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import CardsJokes from "../../images/cardsforjokes-mainpage.png";
-import GotMilk from "../../images/Got-milk-homepage.png";
-import Blog from "../../images/codeChat.png";
-import Planner from "../../images/workdaySchedule.png";
-import NotePad from "../../images/Note-Pad homepage.png";
-import Editor from "../../images/19-Jate.png";
-import ToTask from "../../images/toTask-homepage-screenshot.png";
+import CardsJokes from "../images/cardsforjokes-mainpage.png";
+import GotMilk from "../images/Got-milk-homepage.png";
+import Blog from "../images/codeChat.png";
+import Planner from "../images/workdaySchedule.png";
+import NotePad from "../images/Note-Pad homepage.png";
+import Editor from "../images/19-Jate.png";
+import ToTask from "../images/toTask-homepage-screenshot.png";
 import { Container } from '@mui/system';
 
 
 
-export const Portfolio = () => {
+export default function Portfolio(){
   return (
 
  <Container xs={10} m={6}>
