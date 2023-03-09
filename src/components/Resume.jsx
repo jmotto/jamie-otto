@@ -1,7 +1,7 @@
 import { Card, Link } from "@mui/material";
 import { Container } from "@mui/system";
 import React from "react";
-import MyResume from '../../images/resume_screenshot.png'
+import MyResume from '../images/resume_screenshot.png'
 
 
 export const Resume = () => {

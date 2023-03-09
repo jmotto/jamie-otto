@@ -21,7 +21,7 @@ export default function Portfolio(){
 
  <Container xs={10} m={6}>
   
-    <Grid container>
+    <Grid container sx={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)'}}>
       <Stack direction="column" display='flex'spacing={2}>
         <Card elevation={3}>
       
@@ -168,17 +168,11 @@ export default function Portfolio(){
     </Grid>
   </Container> 
 
-
+    
    
     );
   }
  
-
-
-
-
-
-
 
 
 

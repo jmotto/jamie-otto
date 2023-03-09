@@ -5,14 +5,12 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function Footer() {
     return(
-    <Container >
-        <Box  sx={{
-            bgcolor: '#c8e2d8', 
-            width: '100%',
-            justifyContent: 'center'
+    <Box sx={{
+        bgcolor: 'red', 
        
         }}>
-            <Typography>
+        
+            <Typography >
             ©2022 Jamie Otto
             </Typography>
             <Link href="https://www.linkedin.com/in/jamie-otto-a913a018/" alt="linkedin profile">
@@ -21,9 +19,9 @@ export default function Footer() {
             <Link href="https://github.com/jmotto" alt="github profile">
                 <GitHubIcon/>
             </Link>
-        </Box>
 
-    </Container>
+
+    </Box>
     
     )
 }
