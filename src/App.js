@@ -11,9 +11,9 @@ import { Resume } from "./components/Resume";
 
 function  App () {
  return(
-    <Box bgcolor='blue'> 
+    <div > 
         <Navbar />
-        <Stack spacing={2}> 
+        <Stack > 
             <Home />
             <About/>
             <Portfolio />
@@ -21,11 +21,10 @@ function  App () {
             <Contact />
             
         </Stack>
-       
 
         <Footer />
 
-    </Box>
+    </div>
 
  )
 }

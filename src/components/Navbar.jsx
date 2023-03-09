@@ -8,14 +8,8 @@ import styled from '@emotion/styled';
 const StyledToolbar = styled(Toolbar)({
   display: "flex",
   justifyContent: "space-evenly",
-  palette: {
-    primary: {
-      main: '#004d40',
-    },
-    secondary: {
-      main: '#b9f6ca',
-    },
-  },
+  bgcolor: '#3c3c3c',
+  
   
 
  
@@ -35,15 +29,21 @@ export default function Navbar() {
 
 
       <AppBar position="sticky">
-        <StyledToolbar>
-        <Tabs value={value} onChange={handleChange} >
-          <Tab value="Home" label="Home" href='#home' onClick={()=> handleChange('Home')}/>
-          <Tab value="About" label="About" href='#about' onClick={()=> handleChange('About')}/>
-          <Tab value="Portfolio" label="Portfolio" href="#portfolio" onClick={()=> handleChange('Portfolio')}/>
-          <Tab value="Resume" label="Resume" href="#resume" onClick={()=> handleChange('Resume')}/>
-          <Tab value="Contact" label="Contact" href="#contact" onClick={()=> handleChange('Contact')}/>
+   
+        <Tabs value={value} onChange={handleChange} 
+          sx={{
+            bgcolor: "#3c3c3c",
+            color: '#e7e4e4',
+            justifyContent: "center",
+            display: "flex",
+          }}>
+          <Tab style={{color: '#e7e4e4'}} value="Home" label="Home" href='#home' onClick={()=> handleChange('Home')}/>
+          <Tab style={{color: '#e7e4e4'}} value="About" label="About" href='#about' onClick={()=> handleChange('About')}/>
+          <Tab style={{color: '#e7e4e4'}} value="Portfolio" label="Portfolio" href="#portfolio" onClick={()=> handleChange('Portfolio')}/>
+          <Tab style={{color: '#e7e4e4'}} value="Resume" label="Resume" href="#resume" onClick={()=> handleChange('Resume')}/>
+          <Tab style={{color: '#e7e4e4'}} value="Contact" label="Contact" href="#contact" onClick={()=> handleChange('Contact')}/>
         </Tabs>
-        </StyledToolbar>
+ 
       
       </AppBar>
     
