@@ -50,20 +50,19 @@ export default function About() {
             and Express, GitHub. When I am not coding, I am spending time with
             my family and exploring nature. Contact me at jmotto.dev@gmail.com.
          
-          <Link href="https://www.linkedin.com/in/jamie-otto-a913a018/" alt="linkedin profile">
+          <Link href="https://www.linkedin.com/in/jamie-otto-a913a018/" alt="linkedin profile" target="_blank">
                 <LinkedInIcon />
             </Link>
-            <Link href="https://github.com/jmotto" alt="github profile">
+            <Link href="https://github.com/jmotto" alt="github profile" target="_blank">
                 <GitHubIcon/>
             </Link>
         </Typography>
         </Stack>
-        <Grid item xs={12} md={3}>
+        <Grid item xs={12} md={4}>
           <Grid
             container
-            spacing={3}
-            justifyContent="center"
-            alignItems="center"
+   
+       
           >
             <Grid item xs={3}>
               <DiJavascript1 color="b9f6ca" size={40} />

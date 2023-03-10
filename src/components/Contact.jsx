@@ -1,24 +1,38 @@
 import * as React from 'react';
-import Box from '@mui/material/Box';
+// import Box from '@mui/material/Box';
 // import TextField from '@mui/material/TextField';
 // import Button from '@mui/material/Button';
 // import { Typography, FormControl} from '@mui/material';
-import { Card, CardContent } from '@mui/material';
+import { Card, CardContent, Link, Typography } from '@mui/material';
 
 
 export const Contact = () => {
   return (
-    <Box
-      component="form"
-      sx={{
-        '& .MuiTextField-root': { m: 1, width: '25ch' },
-      }}
-      Validate
-      autoComplete="off"
-    >
-      <Card id="contact">
-        <CardContent>
-                  Contact me at JMOTTO.DEV@GMAIL.COM
+    // <Box
+    //   component="form"
+    //   sx={{
+    //     '& .MuiTextField-root': { m: 1, width: '25ch' },
+    //   }}
+    //   Validate
+    //   autoComplete="off"
+     
+    // >
+      <Card id="contact" >
+        <CardContent >
+          <Typography >
+          Contact me at 
+          </Typography>
+          <Link
+    
+            href="mailto:jmotto.dev@gmail.com"
+            alt="email"
+            target="_blank"
+            rel="noopener noreferrer">
+          
+          JMOTTO.DEV@GMAIL.COM
+          </Link>
+          
+                 
                   {/* <FormControl variant="standard">
                   <div>
                     <Typography variant="h5">
@@ -73,6 +87,6 @@ export const Contact = () => {
                   </FormControl> */}
           </CardContent>
       </Card>
-    </Box>
+    // </Box>
   );
 }

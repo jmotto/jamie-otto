@@ -8,15 +8,15 @@ import { Typography, Box } from "@mui/material";
 
 export default function Home() {
   return (
-    <Box id="home" bgcolor="#b9f6ca" padding="20px">
+    <Box id="home" bgcolor="#3c3c3c" padding="20px">
       <Typography
         sx={{
-          color: "004d40",
+          color: "white",
           width: "100%",
           justifyContent: "center",
           display: "flex",
           // fontFamily: 'Tilt Prism',
-          border: 1,
+          // border: 1,
          
         }}
         variant="h3"

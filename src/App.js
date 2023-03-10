@@ -12,8 +12,9 @@ import { Resume } from "./components/Resume";
 function App() {
   return (
     <div>
+     <Navbar /> 
       <Stack>
-        <Navbar />
+      
         <Home />
         <About />
         <Portfolio />

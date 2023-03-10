@@ -15,10 +15,9 @@ export default function Portfolio() {
         margin={2}
         spacing={2}
         
-       
       >
         {data.map(({ id, title, image, desc, repoUrl, deployUrl }) => (
-          <Grid item xs={12} sm={4} key={id}>
+          <Grid item xs={12} sm={4} key={id} >
             <Card
               elevation={3}
               sx={{
@@ -56,10 +55,10 @@ export default function Portfolio() {
                     justifyContent="center"
                     style={{ marginTop: "1rem" }}
                   >
-                    <Button href={deployUrl} variant="contained" size="small">
+                    <Button href={deployUrl} variant="contained" size="small" target="_blank">
                       Live
                     </Button>
-                    <Button href={repoUrl} variant="outlined" size="small">
+                    <Button href={repoUrl} variant="outlined" size="small" target="_blank">
                       GitHub
                     </Button>
                   </Stack>

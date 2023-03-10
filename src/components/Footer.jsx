@@ -12,7 +12,7 @@ export default function Footer() {
         padding: 1,
         }}>
         
-            <Typography variant="h8">
+            <Typography variant="h8" color='white'>
             ©2022 Jamie Otto
             </Typography>
             <Link href="https://www.linkedin.com/in/jamie-otto-a913a018/" alt="linkedin profile">
