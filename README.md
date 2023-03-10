@@ -24,8 +24,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ## Usage
 To deploy, follow this [link](https://jmotto.github.io/jamie-otto/). 
 
-Here is a screenshot of the homepage of my portfolio.
-![Portfolio](./src/images/Portfolio-screenshot.png)
 
 
 ## License
