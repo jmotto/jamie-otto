@@ -1,36 +1,21 @@
 import * as React from "react";
 
 import Grid from "@mui/material/Grid";
-import {
-  Stack,
-  Button,
-  CardHeader,
-  Typography,
-  Box,
-  CardActionArea,
-} from "@mui/material";
+import { Stack, Button, Typography, Box, CardActionArea } from "@mui/material";
 import data from "./Portfolio.data";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
-// import CardsJokes from "../images/cardsforjokes-mainpage.png";
-// import GotMilk from "../images/Got-milk-homepage.png";
-// import Blog from "../images/codeChat.png";
-// import Planner from "../images/workdaySchedule.png";
-// import NotePad from "../images/Note-Pad homepage.png";
-// import Editor from "../images/19-Jate.png";
-// import ToTask from "../images/toTask-homepage-screenshot.png";
-// import { Container } from "@mui/system";
 
 export default function Portfolio() {
   return (
-    <Box container bgcolor="#3c3c3c">
+    <Box container bgcolor="#3c3c3c" id="portfolio">
       <Grid
         container
         margin={2}
         spacing={2}
-        display="flex"
-        justifyContent="center"
+        
+       
       >
         {data.map(({ id, title, image, desc, repoUrl, deployUrl }) => (
           <Grid item xs={12} sm={4} key={id}>
@@ -42,7 +27,6 @@ export default function Portfolio() {
                 flexDirection: "column",
                 maxWidth: 300,
                 maxHeight: 300,
-              
               }}
             >
               <CardActionArea>
@@ -72,13 +56,10 @@ export default function Portfolio() {
                     justifyContent="center"
                     style={{ marginTop: "1rem" }}
                   >
-                    <Button
-                      href={deployUrl}
-                      variant="contained"
-                    >
+                    <Button href={deployUrl} variant="contained" size="small">
                       Live
                     </Button>
-                    <Button href={repoUrl} variant="outlined">
+                    <Button href={repoUrl} variant="outlined" size="small">
                       GitHub
                     </Button>
                   </Stack>

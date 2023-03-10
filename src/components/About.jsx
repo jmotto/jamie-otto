@@ -1,6 +1,5 @@
 import {
   Box,
-  Card,
   CardContent,
   Typography,
   Avatar,
@@ -17,8 +16,8 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function About() {
   return (
-    <Box container display="flex" justifyContent="center" bgcolor="#004d40">
-      <CardContent display="flex" justifyContent="center">
+    <Box container display="flex" justifyContent="center" bgcolor="#004d40" id="about">
+      <CardContent display="flex" justifyContent="center" >
         <Stack
           direction="row"
           display='flex'

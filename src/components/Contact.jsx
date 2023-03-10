@@ -16,7 +16,7 @@ export const Contact = () => {
       Validate
       autoComplete="off"
     >
-      <Card>
+      <Card id="contact">
         <CardContent>
                   Contact me at JMOTTO.DEV@GMAIL.COM
                   {/* <FormControl variant="standard">
