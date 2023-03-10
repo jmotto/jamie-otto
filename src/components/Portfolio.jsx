@@ -42,6 +42,7 @@ export default function Portfolio() {
                 flexDirection: "column",
                 maxWidth: 300,
                 maxHeight: 300,
+              
               }}
             >
               <CardActionArea>

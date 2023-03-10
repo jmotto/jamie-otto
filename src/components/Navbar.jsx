@@ -2,7 +2,7 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
-import { AppBar, Toolbar, Typography } from '@mui/material';
+import { AppBar, Link, Toolbar, Typography } from '@mui/material';
 import styled from '@emotion/styled';
 
 const StyledToolbar = styled(Toolbar)({
@@ -10,11 +10,20 @@ const StyledToolbar = styled(Toolbar)({
   justifyContent: "space-evenly",
   bgcolor: '#3c3c3c',
   
-  
-
  
 })
 
+function LinkTab(props) {
+  return (
+    <Tab
+      component="a"
+      onClick={(event) => {
+        event.preventDefault();
+      }}
+      {...props}
+    />
+  );
+}
 
   
 export default function Navbar() {
@@ -30,18 +39,18 @@ export default function Navbar() {
 
       <AppBar position="sticky">
    
-        <Tabs value={value} onChange={handleChange} 
+        <Tabs value={value} onChange={handleChange} centered 
           sx={{
             bgcolor: "#3c3c3c",
             color: '#e7e4e4',
             justifyContent: "center",
             display: "flex",
           }}>
-          <Tab style={{color: '#e7e4e4'}} value="Home" label="Home" href='#home' onClick={()=> handleChange('Home')}/>
-          <Tab style={{color: '#e7e4e4'}} value="About" label="About" href='#about' onClick={()=> handleChange('About')}/>
-          <Tab style={{color: '#e7e4e4'}} value="Portfolio" label="Portfolio" href="#portfolio" onClick={()=> handleChange('Portfolio')}/>
-          <Tab style={{color: '#e7e4e4'}} value="Resume" label="Resume" href="#resume" onClick={()=> handleChange('Resume')}/>
-          <Tab style={{color: '#e7e4e4'}} value="Contact" label="Contact" href="#contact" onClick={()=> handleChange('Contact')}/>
+          <LinkTab style={{color: '#e7e4e4'}} value="Home" label="Home" href='/Home' onClick={()=> handleChange('Home')}/>
+          <LinkTab style={{color: '#e7e4e4'}} value="About" label="About" href='/About' onClick={()=> handleChange('About')}/>
+          <LinkTab style={{color: '#e7e4e4'}} value="Portfolio" label="Portfolio" href="/Portfolio" onClick={()=> handleChange('Portfolio')}/>
+          <LinkTab style={{color: '#e7e4e4'}} value="Resume" label="Resume" href="/Resume" onClick={()=> handleChange('Resume')}/>
+          <LinkTab style={{color: '#e7e4e4'}} value="Contact" label="Contact" href="/Contact" onClick={()=> handleChange('Contact')}/>
         </Tabs>
  
       
@@ -49,7 +58,7 @@ export default function Navbar() {
     
     );
   };
-
+ 
   // export default function Navbar() {
 
 //     const [value, setValue] = React.useState();
