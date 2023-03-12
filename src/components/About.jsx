@@ -11,16 +11,22 @@ import MyPhoto from "../images/Otto.JPG";
 import { FaReact, FaNodeJs } from "react-icons/fa";
 import { DiJavascript1, DiMongodb } from "react-icons/di";
 import { Stack } from "@mui/system";
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 export default function About() {
   return (
-    <Box container display="flex" justifyContent="center" bgcolor="#004d40" id="about">
-      <CardContent display="flex" justifyContent="center" >
+    <Box
+      container
+      display="flex"
+      justifyContent="center"
+      bgcolor="#004d40"
+      id="about"
+    >
+      <CardContent>
         <Stack
           direction="row"
-          display='flex'
+          display="flex"
           justifyContent="center"
           alignItems="center"
           spacing={3}
@@ -49,21 +55,24 @@ export default function About() {
             technologies such as HTML, CSS, databases, JavaScript, React, Node,
             and Express, GitHub. When I am not coding, I am spending time with
             my family and exploring nature. Contact me at jmotto.dev@gmail.com.
-         
-          <Link href="https://www.linkedin.com/in/jamie-otto-a913a018/" alt="linkedin profile" target="_blank">
-                <LinkedInIcon />
+            <Link
+              href="https://www.linkedin.com/in/jamie-otto-a913a018/"
+              alt="linkedin profile"
+              target="_blank"
+            >
+              <LinkedInIcon />
             </Link>
-            <Link href="https://github.com/jmotto" alt="github profile" target="_blank">
-                <GitHubIcon/>
+            <Link
+              href="https://github.com/jmotto"
+              alt="github profile"
+              target="_blank"
+            >
+              <GitHubIcon />
             </Link>
-        </Typography>
+          </Typography>
         </Stack>
         <Grid item xs={12} md={4}>
-          <Grid
-            container
-   
-       
-          >
+          <Grid container>
             <Grid item xs={3}>
               <DiJavascript1 color="b9f6ca" size={40} />
             </Grid>

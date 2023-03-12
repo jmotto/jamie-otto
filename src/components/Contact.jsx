@@ -4,6 +4,7 @@ import * as React from 'react';
 // import Button from '@mui/material/Button';
 // import { Typography, FormControl} from '@mui/material';
 import { Card, CardContent, Link, Typography } from '@mui/material';
+import { Box } from '@mui/system';
 
 
 export const Contact = () => {
@@ -17,9 +18,11 @@ export const Contact = () => {
     //   autoComplete="off"
      
     // >
-      <Card id="contact" >
+    <Box >
+      <Card  id="contact"
+      >
         <CardContent >
-          <Typography >
+          <Typography  >
           Contact me at 
           </Typography>
           <Link
@@ -87,6 +90,6 @@ export const Contact = () => {
                   </FormControl> */}
           </CardContent>
       </Card>
-    // </Box>
+    </Box>
   );
 }
