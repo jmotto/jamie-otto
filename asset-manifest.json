@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/jamie-otto/static/js/main.65c16ceb.js",
+    "main.js": "/jamie-otto/static/js/main.fa24ed41.js",
     "static/media/toTask-homepage-screenshot.png": "/jamie-otto/static/media/toTask-homepage-screenshot.9e3f14215a839f3681b7.png",
     "static/media/resume_screenshot.png": "/jamie-otto/static/media/resume_screenshot.adc7c99aa73a1fcd5725.png",
     "static/media/codeChat.png": "/jamie-otto/static/media/codeChat.75e418b1cda243625226.png",
@@ -10,9 +10,9 @@
     "static/media/workdaySchedule.png": "/jamie-otto/static/media/workdaySchedule.dfe0604fc914476befc1.png",
     "static/media/19-Jate.png": "/jamie-otto/static/media/19-Jate.5b224c0543f84510e4f1.png",
     "index.html": "/jamie-otto/index.html",
-    "main.65c16ceb.js.map": "/jamie-otto/static/js/main.65c16ceb.js.map"
+    "main.fa24ed41.js.map": "/jamie-otto/static/js/main.fa24ed41.js.map"
   },
   "entrypoints": [
-    "static/js/main.65c16ceb.js"
+    "static/js/main.fa24ed41.js"
   ]
 }
