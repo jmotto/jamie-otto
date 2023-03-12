@@ -10,6 +10,7 @@ export default function Footer() {
         display: 'flex',
         justifyContent: 'center',
         padding: 1,
+        gap: "2em",
         }}>
         
             <Typography variant="h8" color='white'>
