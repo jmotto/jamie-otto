@@ -1,7 +1,7 @@
 import * as React from "react";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import Grid from "@mui/material/Grid";
-import { Stack, Button, Typography, Box, CardActionArea } from "@mui/material";
+import { Stack, Button, Typography, CardActionArea } from "@mui/material";
 import data from "./Portfolio.data";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
