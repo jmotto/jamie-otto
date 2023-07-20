@@ -4,26 +4,27 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
-import { Stack } from "@mui/material";
+import { Grid, Stack } from "@mui/material";
 import About from "./components/About";
 import { Contact } from "./components/Contact";
 import { Resume } from "./components/Resume";
+import { useMediaQuery } from '@mui/material/useMediaQuery';
 
 function App() {
   return (
-    <div>
-     <Navbar /> 
+  
+    <Grid item xs={12} sm={4}  display="flex">
       <Stack>
-      
+        <Navbar />
         <Home />
         <About />
         <Portfolio />
         <Resume />
         <Contact />
+        <Footer />
       </Stack>
-
-      <Footer />
-    </div>
+    </Grid>
+   
   );
 }
 export default App;

@@ -38,7 +38,7 @@ const data = [
         title: 'Daily Planner',
         desc: 'app to plan for the day',
         repoUrl: 'https://github.com/jmotto/Daily-Planner.git',
-        deployUrl: 'https://github.com/jmotto/Daily-Planner',
+        deployUrl: 'https://jmotto.github.io/Daily-Planner/',
       },
       // {
       //   id: 5,

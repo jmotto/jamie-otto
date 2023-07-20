@@ -24,6 +24,26 @@ export default function Home() {
       >
         Hello, I am Jamie Otto.
       </Typography>
+      
     </Box>
   );
 }
+
+
+{/* <Grid item xs={12} md={4} >
+        
+<Grid container direction="row" display="flex" alignItems="center" spacing="-30em">
+  <Grid item xs={3}>
+    <DiJavascript1 color="b9f6ca" size={30} />
+  </Grid>
+  <Grid item xs={3}>
+    <FaReact color="b9f6ca" size={30} />
+  </Grid>
+  <Grid item xs={3}>
+    <DiMongodb color="#b9f6ca" size={30} />
+  </Grid>
+  <Grid item xs={3}>
+    <FaNodeJs color="b9f6ca" size={30} />
+  </Grid>
+</Grid>
+</Grid> */}

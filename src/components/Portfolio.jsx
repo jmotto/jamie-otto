@@ -76,7 +76,7 @@ export default function Portfolio() {
     //   </Grid>
     // );
 
-    <Box container bgcolor="#3c3c3c" id="portfolio">
+    <Grid container bgcolor="#3c3c3c" id="portfolio">
       <Typography
         sx={{
           color: "white",
@@ -153,7 +153,7 @@ export default function Portfolio() {
           </Grid>
         ))}
       </Grid>
-    </Box>
+    </Grid>
   );
 }
 
